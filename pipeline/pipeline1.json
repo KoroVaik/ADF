@@ -1,6 +1,23 @@
 {
 	"name": "pipeline1",
 	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "aswdw",
+					"value": "ertre"
+				}
+			}
+		],
+		"variables": {
+			"aswdw": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
