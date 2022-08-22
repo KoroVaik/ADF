@@ -1,6 +1,20 @@
 {
 	"name": "pipeline1",
 	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
+		"variables": {
+			"asdf": {
+				"type": "String",
+				"defaultValue": "qwe"
+			}
+		},
 		"annotations": []
 	}
 }
