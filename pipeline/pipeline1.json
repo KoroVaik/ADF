@@ -8,14 +8,32 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "aswdw",
-					"value": "ertre"
+					"variableName": "asdf",
+					"value": "retfret"
+				}
+			},
+			{
+				"name": "Fail1",
+				"type": "Fail",
+				"dependsOn": [
+					{
+						"activity": "Set variable12",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"message": "faaaail",
+					"errorCode": "400"
 				}
 			}
 		],
 		"variables": {
-			"aswdw": {
-				"type": "String"
+			"asdf": {
+				"type": "String",
+				"defaultValue": "qwe"
 			}
 		},
 		"annotations": []
